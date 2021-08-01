@@ -1,0 +1,2 @@
+# navigate_waypoints
+This project consists of two functionalities: ‘select and store waypoints’ and ‘navigate waypoints’. It is more like a GUI i.e. when the functionality is called, the map pops up and the user can select waypoints using mouse clicks and the waypoints get stored in a text file. When the ‘navigate waypoints’ functionality is called the robot starts navigating on the stored waypoints.
