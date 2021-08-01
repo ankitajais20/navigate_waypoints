@@ -1,0 +1,10 @@
+<launch>
+ <arg name="addpose_topic" default="/initialpose"/>
+ <arg name="posearray_topic" default="/waypoints"/>
+
+  <node pkg="navigate_waypoints" type="navigate_waypoints.py" name="navigate_waypoints" output="screen" clear_params="true">
+    <param name="goal_frame_id" value="map"/>
+    <param name="addpose_topic" value="$(arg addpose_topic)"/>
+    <param name="posearray_topic" value="$(arg posearray_topic)"/>
+  </node>
+</launch>
